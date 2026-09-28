@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Output
+dist/
+build/
+
+# Environment Variables & Private Credentials (WAJIB DIISI MANUAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# Runtime Data, User State & Personal Configurations (Private Data)
+dailyState.json
+positions.json
+userConfigs.json
+userRegistry.json
+
+# Logs & Debug
+*.log
+logs/
+
+# Archives & Temporary files
+deploy.zip
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
